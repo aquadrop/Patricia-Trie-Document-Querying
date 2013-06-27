@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 8c1972e3ebdb01ca9921a4f514188335 ffffffffffffffffffffffffffffffff 46720 /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod
+00000000511bac14000000000000208c ec42725e26913de57555dcfb6fc9fe7c ffffffffffffffffffffffffffffffff 181832 /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o
+0000000051cafd8700000000000011ef d79080c8d39826b4aff1d1b56812a730 ffffffffffffffffffffffffffffffff 0 /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/patricia_trie.o
+00000000511bac14000000000000208c e2b67ce2aea5e53844a0951c16ecc80a ffffffffffffffffffffffffffffffff 15176 /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o

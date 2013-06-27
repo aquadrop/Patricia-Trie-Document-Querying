@@ -1,0 +1,119 @@
+TSigmod
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o /Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o /Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000518262A900000000000000AA
+t1367499433
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/sys/time.h
+c00000000502AC6BF0000000000001E64
+t1344980671
+s7780
+
+N/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/Sigmod.LinkFileList
+c00000000518411D4000000000000011C
+t1367609812
+s284
+
+N/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o
+t2
+s0
+
+N/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o
+t2
+s0
+
+N/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod
+t2
+s0
+
+N/Users/jianweixu/Documents/Project/Sigmod/Sigmod/include/core.h
+c00000000511BAC14000000000000208C
+t1360768020
+s8332
+
+N/Users/jianweixu/Documents/Project/Sigmod/Sigmod/libcore.so
+c000000005182F3040000000000004210
+t1367536388
+s16912
+
+N/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp
+c00000000510BDD320000000000001C64
+t1359732018
+s7268
+
+N/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp
+c00000000510BDDC20000000000001D86
+t1359732162
+s7558
+i"../include/core.h"
+i<cstdlib>
+i<cstdio>
+i<sys/time.h>
+
+CBuild AST from /Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp
+r0
+
+CBuild AST from /Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies60ab28544934b741^2f4d2d544934b741^-114"warning: no rule to process file '$(PROJECT_DIR)/Sigmod/Makefile' of type sourcecode.make for architecture x86_641(21%IDEActivityLogMessage2@113"Warning: no rule to process file '$(PROJECT_DIR)/Sigmod/Makefile' of type sourcecode.make for architecture x86_64-389302612#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"609CDC7B-0309-4197-94E6-72669BC113DD-
+
+CCompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o /Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389302612.191005
+e389302613.470689
+r1
+xCompileC
+xDerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o
+x/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:164:20: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+o        unsigned int i, n=queries.size();
+o                        ~ ^~~~~~~~~~~~~~
+o/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:183:20: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+o        unsigned int i, n=queries.size();
+o                        ~ ^~~~~~~~~~~~~~
+o/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:257:14: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+o        doc.num_res=query_ids.size();
+o                   ~^~~~~~~~~~~~~~~~
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0b4631544934b741^177e78554934b741^-869"/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:164:20: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]        unsigned int i, n=queries.size();                        ~ ^~~~~~~~~~~~~~/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:183:20: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]        unsigned int i, n=queries.size();                        ~ ^~~~~~~~~~~~~~/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp:257:14: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]        doc.num_res=query_ids.size();                   ~^~~~~~~~~~~~~~~~3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@96"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int'-389302613#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^163#19#163#19#4372#0#14"Semantic Issue2(3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^163#19#163#33#4372#13#3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^163#17#163#18#4370#0#-2@96"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int'-389302613#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^182#19#182#19#4770#0#14"Semantic Issue2(3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^182#19#182#33#4770#13#3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^182#17#182#18#4768#0#-2@96"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int'-389302613#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^256#13#256#13#6411#0#14"Semantic Issue2(3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^256#13#256#29#6411#15#3@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^256#12#256#13#6410#0#-0#0#0#-19%DVTDocumentLocation4@82"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp0000000000000000^3119"CompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o Sigmod/ref_impl/core.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jianweixu/Documents/Project/Sigmod    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-generated-files.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-own-target-headers.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-all-target-headers.hmap -iquote /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-project-headers.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/DerivedSources/x86_64 -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/DerivedSources -F/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug -MMD -MT dependencies -MF /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.d --serialize-diagnostics /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.dia -c /Users/jianweixu/Documents/Project/Sigmod/Sigmod/ref_impl/core.cpp -o /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/core.o36"FB6F4E59-D24C-42D9-B43F-AD85375A09CD-
+
+CCompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o /Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389302612.191003
+e389302613.186234
+r1
+xCompileC
+xDerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o
+x/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp:39:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+o        return t2.tv_sec*1000+t2.tv_usec/1000;
+o        ~~~~~~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp0b4631544934b741^deaa2f554934b741^-282"/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp:39:23: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]        return t2.tv_sec*1000+t2.tv_usec/1000;        ~~~~~~ ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@60"Implicit conversion loses integer precision: 'long' to 'int'-389302613#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp0000000000000000^38#22#38#22#1510#0#14"Semantic Issue2(3@85"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp0000000000000000^38#8#38#38#1496#26#3@85"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp0000000000000000^38#1#38#7#1489#0#-0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp0000000000000000^3125"CompileC DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o Sigmod/test_driver/test.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jianweixu/Documents/Project/Sigmod    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-generated-files.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-own-target-headers.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-all-target-headers.hmap -iquote /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Sigmod-project-headers.hmap -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/DerivedSources/x86_64 -I/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/DerivedSources -F/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug -MMD -MT dependencies -MF /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.d --serialize-diagnostics /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.dia -c /Users/jianweixu/Documents/Project/Sigmod/Sigmod/test_driver/test.cpp -o /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/test.o36"223749A4-3D33-4A38-8D8F-5F865458C429-
+
+CLd /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod normal x86_64
+s389302613.477732
+e389302614.274913
+r1
+xLd
+x/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmodcf657a554934b741^3d6046564934b741^---0#0#0#--952"Ld DerivedData/Sigmod/Build/Products/Debug/Sigmod normal x86_64    cd /Users/jianweixu/Documents/Project/Sigmod    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug -L/Users/jianweixu/Documents/Project/Sigmod/Sigmod -F/Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug -filelist /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Intermediates/Sigmod.build/Debug/Sigmod.build/Objects-normal/x86_64/Sigmod.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ /Users/jianweixu/Documents/Project/Sigmod/Sigmod/libcore.so -o /Users/jianweixu/Documents/Project/Sigmod/DerivedData/Sigmod/Build/Products/Debug/Sigmod36"29DFCBC8-2476-4F46-A13A-A5AE025F11F2-
+

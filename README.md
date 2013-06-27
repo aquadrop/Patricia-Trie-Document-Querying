@@ -1,0 +1,11 @@
+Patricia-Trie/Radix Tree for document querying system
+=======================================================
+
+A small project The implementation of Patricia Trie retrived from the Sigmod contest
+1. The Sigmod folder contains my implementation of radix tree
+2. The Sigmod-Orig folder contains the origin content
+3. The speed up is 1.24, as no additional effort is put.
+4. Details: http://sigmod.kaust.edu.sa/index.php
+
+--Enjoy
+--Jianwei Xu
