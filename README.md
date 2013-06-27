@@ -8,5 +8,6 @@ Patricia-Trie/Radix Tree for document querying system
 3. The speed up is 1.24, as no additional effort is put.
 4. Details: http://sigmod.kaust.edu.sa/index.php
 
---Enjoy
+Enjoy
+
 --Jianwei Xu
